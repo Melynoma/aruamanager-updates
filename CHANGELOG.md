@@ -8,6 +8,15 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.15
+
+**Fixed: Targeted buffs going to the wrong party member**
+When two party members had similar names — "momoi" and "Momiji", for example — Scan Party
+could pair them with each other's rows in the party panel. Casting then selected the wrong
+character, so one member was buffed twice and another was skipped entirely. Scanning now
+matches the most specific name first and never assigns one party row to two members. If you
+have been affected, re-run Scan Party once and the positions will correct themselves.
+
 ## 3.2.14
 
 **Fixed: Update downloads**
