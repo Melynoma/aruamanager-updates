@@ -8,6 +8,26 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.16
+
+**New: Cast History**
+A History button on the Cleric tab shows what has been cast this session, when, and whether it
+reached the client — so "did that last auto-recast actually fire?" no longer needs guessing.
+
+**New: You're told when a buff doesn't land**
+If AruaManager can't bring a client to the front, its buff keys can end up going nowhere. That
+used to happen silently. It now says which character was affected, both in the status line and
+in the Cast History.
+
+**New: Closed clients are noticed**
+If a game client you're buffing closes or crashes, the Cleric tab now tells you and skips it,
+instead of quietly casting at a client that is no longer there.
+
+**New: Party launches are checked**
+After launching a party, AruaManager counts how many clients are actually running and warns
+you if any didn't make it — catching the case where a client starts and then dies at the login
+screen.
+
 ## 3.2.15
 
 **Fixed: Targeted buffs going to the wrong party member**
