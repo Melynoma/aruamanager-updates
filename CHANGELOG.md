@@ -8,6 +8,11 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.14
+
+**Fixed: Update downloads**
+The download attached to each update now publishes reliably.
+
 ## 3.2.13
 
 **Fixed: Update downloads**
