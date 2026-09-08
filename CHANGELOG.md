@@ -8,6 +8,12 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.12
+
+**Fixed: Downloads are now attached to each release**
+Update notifications pointed at a releases page that had nothing on it, so there was no way to
+actually get the new version. Builds now publish the download alongside the update notice.
+
 ## 3.2.11
 
 **Fixed: Cleric levelling build was wrong**
