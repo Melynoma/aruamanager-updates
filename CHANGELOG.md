@@ -8,6 +8,13 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.17
+
+**Fixed: Event alerts repeating over and over**
+An event alert kept firing about once a minute until the event started, so two warning times
+could produce dozens of notifications — including ones at times you never set. Each warning
+now sounds exactly once per event, as intended.
+
 ## 3.2.16
 
 **New: Cast History**
