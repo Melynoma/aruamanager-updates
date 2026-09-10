@@ -8,6 +8,18 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.20
+
+**Fixed: AruaManager could fail to open with no error at all**
+If something went wrong while starting up — particularly the new whisper alerts or update
+check — the app could close instantly with no window and no message, so there was nothing to
+report. Those two features can no longer stop AruaManager opening: if either fails it is
+simply switched off and the app carries on.
+
+**New: Errors are now reported instead of vanishing**
+Anything that does go wrong is shown on screen and written to AruaManager-crash.log next to
+AruaManager.exe, so a problem can actually be described rather than just "it won't open".
+
 ## 3.2.19
 
 **Fixed: New installs skipped the setup wizard**
