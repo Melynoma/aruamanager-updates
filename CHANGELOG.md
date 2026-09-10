@@ -8,6 +8,13 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.18
+
+**New: Choose how long alert pop-ups stay**
+The Timers tab now lets you set how many seconds a pop-up stays on screen — useful if you're
+usually alt-tabbed into the game and eight seconds isn't long enough. Set it to 0 and the
+pop-up waits until you click it.
+
 ## 3.2.17
 
 **Fixed: Event alerts repeating over and over**
