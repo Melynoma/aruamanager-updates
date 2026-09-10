@@ -8,6 +8,15 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.21
+
+**Fixed: AruaManager would not open if a save file was damaged**
+If your accounts file became corrupted — usually after a crash or forced shutdown while it was
+being saved — AruaManager closed instantly with no window and no message, so there was no way
+to tell what was wrong. It now opens normally, sets the damaged file aside as a .corrupt copy
+so it can be recovered, and records what happened. Restoring a backup, or simply re-adding the
+accounts, gets you going again.
+
 ## 3.2.20
 
 **Fixed: AruaManager could fail to open with no error at all**
