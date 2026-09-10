@@ -8,6 +8,17 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.19
+
+**Fixed: New installs skipped the setup wizard**
+The download accidentally included a file marking setup as already done, so anyone installing
+fresh never saw the first-launch wizard and was never asked for their ROSE folder. Downloads
+no longer carry it, and a new install now starts the wizard as intended.
+
+**Fixed: Downloads included leftover settings and logs**
+A couple of settings files and a diagnostic log were being packaged with the download by
+mistake. They're now excluded, so an update can't overwrite your own preferences.
+
 ## 3.2.18
 
 **New: Choose how long alert pop-ups stay**
