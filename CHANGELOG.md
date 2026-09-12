@@ -8,6 +8,13 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.23
+
+**Fixed: The update notice could fail to appear**
+When AruaManager found a new version while it was still starting up, the notice telling you
+about it could fail to open, so there was nothing to click even though an update was waiting.
+It now appears as intended.
+
 ## 3.2.22
 
 **UI enhancements and quality of life improvements**
