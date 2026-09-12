@@ -8,6 +8,17 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.25
+
+**Fixed: Bonfire needed pressing twice**
+Bonfire could fail to cast on the first press, doing nothing until you pressed again or
+switched to the cleric's window. It now casts first time, without pulling the game window in
+front of whatever you're doing.
+
+**New: Bonfire resumes following**
+If you have a follow key set, the cleric now goes back to following the leader after casting
+Bonfire, the same as it does after healing.
+
 ## 3.2.24
 
 **UI enhancements and quality of life improvements**
