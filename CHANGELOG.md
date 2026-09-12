@@ -8,6 +8,29 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.24
+
+**UI enhancements and quality of life improvements**
+
+**New: Choose which buttons appear on the overlay**
+The Cleric tab's "Overlay shows" options now cover Heal Leader, Party Heal, Follow Leader and
+Bonfire as well, so you can hide any button you don't use and keep the overlay to just the
+controls you want. Everything stays visible until you turn it off.
+
+**New: Bonfire shows a countdown**
+After casting Bonfire the overlay button counts down from 12 seconds, so you can see at a
+glance how long is left. You can still press it at any time — it's a reminder, not a lock.
+
+**New: Set how often Auto-Heal casts**
+Auto-Heal used to fire on a fixed two-second beat. You can now set the interval yourself,
+including part-seconds such as 1.5, and choose whether it casts Cure on the party leader or the
+party-wide Healing skill.
+
+**Improved: Healing and Bonfire no longer take over your screen**
+Bonfire, Heal Leader and Follow Leader used to bring a game client to the front when used, and
+Bonfire sometimes needed pressing twice. They now work first time and leave whatever you're
+doing alone.
+
 ## 3.2.23
 
 **Fixed: The update notice could fail to appear**
