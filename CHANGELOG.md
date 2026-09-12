@@ -1,4 +1,4 @@
-# What's New in AruaManager
+﻿# What's New in AruaManager
 
 Written for players — what changed and what it means for you, not how it was built.
 
@@ -7,6 +7,26 @@ Written for players — what changed and what it means for you, not how it was b
 > to someone who has read the code, rewrite it or leave it out.
 
 ---
+
+## 3.2.22
+
+**UI enhancements and quality of life improvements**
+
+**New: Remember overlay positions**
+A new option under Options keeps each floating overlay where you put it. Drag the Cleric,
+Custom, Loot, Storage or Timers overlay to wherever suits you and it reopens there next time —
+each one remembered separately. Turning the option off leaves your positions saved, so you can
+switch it back on and pick up where you left off.
+
+**Improved: Buffing no longer takes over your screen**
+Casting used to pull each game client to the front in turn, interrupting whatever you were
+doing. Buffs, heals and follow now reach your clients far more quietly — your mouse stays where
+you left it, and you can keep playing on another character while a party is buffed.
+
+**Fixed: Follow not working after buffing**
+The follow key sent after a buff cycle could fail to reach the cleric, leaving it standing
+still instead of following the leader. Follow Leader and Heal Leader were affected in the same
+way. Both now work as intended.
 
 ## 3.2.21
 
