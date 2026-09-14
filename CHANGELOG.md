@@ -8,6 +8,14 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.28
+
+**New: Second Cleric**
+If you run a second cleric purely for healing, tick Second Cleric on the Cleric tab and pick
+its client. A Party Heal 2 button then appears on the overlay to heal with it on demand, and
+Bonfire lights both clerics from a single press. It never casts buffs — Cast All and targeted
+buffs stay with your main cleric.
+
 ## 3.2.27
 
 **Fixed: Regression on Cleric skills**
