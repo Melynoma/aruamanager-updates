@@ -8,6 +8,14 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.26
+
+**New: Buff party members who aren't your characters**
+The Cleric tab has an Add Target button next to Scan Party. Type the character name of anyone
+else in your party and they join the target list, so you can buff them the same as your own
+characters — Scan Party will find them, or you can set their portrait by hand. Added party
+members last for the current session and can be removed with the ✕ button beside their row.
+
 ## 3.2.25
 
 **Fixed: Bonfire needed pressing twice**
