@@ -8,6 +8,13 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.27
+
+**Fixed: Regression on Cleric skills**
+Auto-Heal and Heal Leader could fail to cast unless the cleric's window was the active one,
+and sometimes brought that window to the front when they did fire. Both now cast reliably
+while you carry on playing in another client, as they did before.
+
 ## 3.2.26
 
 **New: Buff party members who aren't your characters**
