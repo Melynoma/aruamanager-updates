@@ -8,6 +8,13 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.29
+
+**Fixed: Accounts only allowed five characters**
+An account can hold six characters in game, but the Accounts tab only had room for five. There
+is now a sixth slot, with its own note field like the rest. Existing accounts keep everything
+they already have and simply gain the extra row.
+
 ## 3.2.28
 
 **New: Second Cleric**
