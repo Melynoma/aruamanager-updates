@@ -8,6 +8,15 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.30
+
+**New: Purify**
+Purify now has its own keybind on the Cleric tab, under Bonfire, plus two overlay buttons.
+Purify Leader cleanses the leader and goes back to following them, the same as Heal Leader.
+Purify All works through every ticked target in turn, waiting for the skill's cooldown between
+each — that wait is adjustable, and defaults to 5 seconds. Both buttons can be hidden under
+"Overlay shows", and both can be given a hotkey alongside the existing buff hotkeys.
+
 ## 3.2.29
 
 **Fixed: Accounts only allowed five characters**
