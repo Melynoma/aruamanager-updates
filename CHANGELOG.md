@@ -8,6 +8,13 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.32
+
+**Fixed: Two update notices when running as Administrator**
+If AruaManager was set to always run as Administrator, the update notice appeared twice — you
+clicked Later on the first, then the same notice returned as the app finished opening. It now
+appears once.
+
 ## 3.2.31
 
 **New: Your own timers**
