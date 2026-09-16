@@ -8,6 +8,14 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.31
+
+**New: Your own timers**
+The Timers tab now lets you add countdowns of your own. Give it a name, say how long it runs
+and how much warning you want, and it sits in the list alongside the game events. Type the
+length however suits you — 02:00:00, "2 hours", "90 mins" and "1h30m" all work. Timers repeat
+until you remove them with the ✕ beside the row, and last for the current session.
+
 ## 3.2.30
 
 **New: Purify**
