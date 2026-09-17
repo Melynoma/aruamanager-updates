@@ -8,6 +8,17 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.33
+
+**Fixed: Gems not counting in empty gear slots**
+In the Stat Calculator, a gem socketed into a slot with no item text written in was ignored, so
+its bonus was missing from your totals. Gems now always count unless the socket is set to None.
+
+**Improved: Clearer placeholder gear**
+The example text in Define Gear now starts with "example:" so it is obvious at a glance which
+slots you have filled in and which are just showing a sample. It still disappears as soon as
+you click into the box.
+
 ## 3.2.32
 
 **Fixed: Two update notices when running as Administrator**
