@@ -8,6 +8,18 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.34
+
+**New: Update without reinstalling**
+The update notice now has an Update Now button. It downloads the new version, installs it over
+your existing copy and restarts — so the app stays where it is and any Start menu or taskbar
+shortcut keeps working, instead of you having to extract a fresh copy and re-pin it. Your
+settings are left alone. The Download button is still there if you would rather do it yourself.
+
+**Fixed: Characters column sat too high on the Accounts tab**
+The list of characters was aligned to the top of its row while the alias and account name
+beside it were centred, so the three columns did not line up.
+
 ## 3.2.33
 
 **Fixed: Gems not counting in empty gear slots**
