@@ -8,6 +8,17 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.36
+
+**New: Update without losing your pinned shortcut**
+Downloads now include Update.bat. Extract the zip anywhere, run Update.bat from inside it, and
+tell it where AruaManager currently lives — it copies the new version over your existing
+install and starts it again. Because the app stays in the same folder, any Start menu or
+taskbar shortcut keeps working, and your settings are untouched.
+
+Extracting to a brand new folder still works as before, but that is what breaks a pinned
+shortcut and means re-pinning it each time.
+
 ## 3.2.35
 
 **Fixed: Update download reported as a threat**
