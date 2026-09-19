@@ -8,6 +8,17 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.35
+
+**Fixed: Update download reported as a threat**
+The previous version added an Update Now button that installed updates in place. Windows
+Defender flagged part of how it worked as a threat — a false alarm, but not something to leave
+in place, so that button has been removed. Updates are downloaded from the browser again, as
+before.
+
+If you saw a warning downloading 3.2.34, nothing was wrong with your computer or with
+AruaManager; the file is safe to delete and this version replaces it.
+
 ## 3.2.34
 
 **New: Update without reinstalling**
