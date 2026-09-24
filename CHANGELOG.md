@@ -10,18 +10,28 @@ Written for players — what changed and what it means for you, not how it was b
 
 ## 3.2.37
 
-**Fixed: Character lists on the Accounts tab not lining up**
+**The Accounts tab has changed — please read**
+Two things are different on the Accounts tab in this version. Nothing you have already saved is
+altered or lost, but saving an account now asks for more than it used to.
+
+**Changed: Saving an account now requires a few details**
+An account needs a username, a description and at least the first character name before it will
+save. Parties are built from those details, so an account missing them could be saved but could
+never actually be added to a party — which was easy to hit and confusing when it happened.
+
+You will also see a warning if you save an account with no password. That still works and is
+still allowed, but a party cannot log that character in without one, so it is worth knowing.
+
+If you edit an older account that is missing a description or a character name, it will now ask
+you to fill those in before it will save again. Your existing accounts are untouched until you
+edit them.
+
+**Fixed: Character lists not lining up**
 Accounts with several long character names stretched the Characters column much wider than the
 rest of the table, which pushed the buttons on the right out of view and left rows looking
 staggered depending on how many characters each account had. Long lists now wrap onto a second
 line instead of stretching, and every row uses the same column widths no matter what order your
 accounts load in.
-
-**New: Accounts now check you have filled in what Parties needs**
-Saving an account now asks for a username, a description and at least the first character name.
-Parties build themselves from those, so an account missing them could be saved but never added
-to a party. Saving without a password still works, but now warns you first — a party cannot log
-that character in without one.
 
 ## 3.2.36
 
