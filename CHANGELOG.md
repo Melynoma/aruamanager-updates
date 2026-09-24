@@ -8,7 +8,7 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
-## 3.2.37
+## 3.2.38
 
 **The Accounts tab has changed — please read**
 Two things are different on the Accounts tab in this version. Nothing you have already saved is
