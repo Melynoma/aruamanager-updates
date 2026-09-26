@@ -8,6 +8,45 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.40
+
+**New: Active Skills on the Stat Calculator**
+The Stat Calculator now lists the attack skills your class can learn, next to the passive list.
+Pick a level and you will see that skill's damage type, its power, and how long its cooldown
+actually is for your character - Charm reduces skill cooldowns, so the number changes as you
+respec. Clicking a skill also fills in the Skill Damage Calculator below it.
+
+Power and cooldown figures have been measured in game for the Soldier, Dealer and Hawker trees,
+which covers Knight, Champion, Bourgeois, Artisan, Raider and Scout. Cleric and Mage skills are
+listed but their numbers are still being collected - those levels say "not yet measured" rather
+than showing a made-up value.
+
+There are also **Hide bow** and **Hide crossbow** checkboxes, which take those weapons' skills
+out of both lists if your build never uses them.
+
+**New: Skill Cooldown Reduction in Current Values**
+Every 10 Charm takes 1% off your skill cooldowns, and the Stat Calculator now shows what your
+build actually gets. Cleric buffs do not change it, so it reads the same buffed or unbuffed.
+
+**Fixed: Skill damage was being worked out the wrong way**
+The Skill Damage Calculator used a single formula for every skill. The game actually uses three
+completely different ones depending on whether a skill is a weapon attack, a magic attack, or a
+multi-hit "continuing" attack, and it treats players and monsters differently again. All of that
+is now in place, along with the target's Defence, Magic Resistance and Dodge, which it previously
+ignored.
+
+Double and triple attacks were also being read wrong. The game's tooltip shows the combined
+damage for a double attack but the per-hit damage for a triple, so both are now shown clearly as
+per-hit and total.
+
+**Fixed: Typing in the Damage or Critical estimators could freeze the app briefly**
+Every character typed was rebuilding the whole skill list behind the scenes. It now only rebuilds
+when something that affects it actually changes.
+
+**Fixed: Skills were not saved with a build**
+Saving a build now keeps your active skill choices along with everything else, and anything you
+have not set is stored as 0 rather than being guessed.
+
 ## 3.2.39
 
 **New: Account email**
