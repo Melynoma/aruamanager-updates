@@ -8,6 +8,13 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.41
+
+**Fixed: Active skills were not saved with a build**
+Saving a build kept your passive skills but quietly lost your active skill choices - reopening
+the tool showed them all back at 0. They are now stored properly. Builds you saved before this
+version never recorded those choices, so you will need to set them once more.
+
 ## 3.2.40
 
 **New: Active Skills on the Stat Calculator**
