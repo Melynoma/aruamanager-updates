@@ -8,6 +8,26 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.39
+
+**New: Account email**
+Accounts can now record the email they are registered under. It sits under the password on the
+account edit screen and is entirely optional.
+
+Emails stay hidden on the Accounts list until you press the new **Show email** button beside the
+search box, so nothing personal is on screen unless you asked for it. Stream mode hides the
+email the same way it hides the account name, and the button resets to off each time the app
+starts.
+
+**New: Skill Cooldown Reduction on the Stat Calculator**
+Charm reduces skill cooldowns by 1% for every 10 points, and the Stat Calculator now shows what
+your build actually gets. The 10 Charm every character starts with does not count toward it, so
+a fresh character correctly reads 0%.
+
+It appears under Current Values, in the cleric-buffed column, and as a row when comparing
+builds. Cleric buffs do not change it, so the buffed figure always matches the unbuffed one -
+gear and passive skills do still count.
+
 ## 3.2.38
 
 **The Accounts tab has changed — please read**
