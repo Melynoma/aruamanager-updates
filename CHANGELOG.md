@@ -8,6 +8,13 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.46
+
+**Fixed: The full-width drop strip vanished once you used it**
+The label marking the full-width area at the top of the Stat Calculator hid itself as soon as a
+section was dropped there, so there was no sign the area existed and nothing to aim at when
+dragging a section back into it. It now stays visible whether or not it holds anything.
+
 ## 3.2.45
 
 **New: Every class now has real skill numbers**
