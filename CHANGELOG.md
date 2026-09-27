@@ -8,6 +8,18 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.44
+
+**Fixed: Cleric hotkeys stayed active when the tab was hidden**
+Hiding the Cleric tab left its hotkeys registered, so a key bound there - Page Up and Page Down
+by default - kept being captured from every other program on your PC even though the tab was not
+visible. Hiding the tab now releases them, and showing it again puts them back. Your bindings are
+kept either way.
+
+**New: Disable hotkeys**
+A checkbox on the Cleric tab's Hotkeys row releases all of them at once, for when you want the
+tab open but the keys free for something else. Again, your bindings are kept.
+
 ## 3.2.43
 
 **New: Rearrange the Stat Calculator to suit you**
