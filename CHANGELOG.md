@@ -8,6 +8,21 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.42
+
+**Fixed: Magic and multi-hit skills were treated as weapon attacks**
+Every skill except a handful was showing as a Weapon attack, including ones that are clearly
+magic — Spirit Heart, Flame Hawk, the Zuly skills, Poison Shuriken, Spiral Kick and others — and
+the multi-hit Double Slash, Triple Slash and Twin Shot. That was not just a wrong label: the game
+uses a different damage formula for each type, so those skills were being costed the wrong way.
+14 skills now read as Magic and 5 as Continuing.
+
+**Fixed: Crafting and trade skills listed as attack skills**
+Dealer, Bourgeois and Artisan were showing Discount, Overcharge, Craft Mastery, Item Craft, every
+weapon and armour craft, Gem Cutting, Item Divide, Item Refine and the rest in the Active Skills
+list. These are passives and belong in the passive list only. Artisan now lists 8 attack skills
+instead of 28, and Bourgeois 10 instead of 27.
+
 ## 3.2.41
 
 **Fixed: Active skills were not saved with a build**
