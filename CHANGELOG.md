@@ -8,6 +8,30 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.43
+
+**New: Rearrange the Stat Calculator to suit you**
+The Stat Calculator is now a two-column page and you can drag any section by its title bar to
+move it between columns or reorder it. Your arrangement is remembered, along with which sections
+you left collapsed, and a **Reset layout** button at the foot of the page puts everything back.
+
+Passive Skills and Active Skills are now separate sections rather than two lists sharing one box,
+so neither gets squeezed when you move it. The Points summary can also be collapsed now.
+
+**New: Base classes on the Stat Calculator**
+Soldier, Muse, Hawker and Dealer can now be picked as well as the eight second jobs, for planning
+a character before level 70. Passive skills correctly stop at the base job's own range — a
+Soldier caps where a Knight would carry on.
+
+**New: Scout bow skills**
+Aim Shot, Hawk Shot, Eagle Shot, Double Shot, Triple Shot, Binding Arrow, Shackle Arrow and
+Poison Arrow all have real power and cooldown figures now, as do the last two Raider skills.
+Only the Muse, Cleric and Mage spells are still to be measured.
+
+**Fixed: Heals and summons listed as attack skills**
+Healing, Cure, Bonfire, Purify and Resurrection were showing in the Active Skills list for Cleric
+and Mage. They are not attacks, so they have been removed.
+
 ## 3.2.42
 
 **Fixed: Magic and multi-hit skills were treated as weapon attacks**
