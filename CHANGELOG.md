@@ -8,6 +8,32 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.45
+
+**New: Every class now has real skill numbers**
+The Muse, Cleric and Mage spells have been measured, which completes all twelve classes. Every
+attack skill in the Active Skills list now shows its real power and cooldown instead of "not yet
+measured".
+
+**New: Stun chance on the skill list**
+Skills that stun now show it on their row - for example `Weapon 270 | CD 7.77s | 55% stun` - and
+picking one fills in the Stun Success Estimator's base rate for you, saying which skill and level
+it came from. Nine skills stun, and the figure changes with the level you pick.
+
+**New: Full-width sections on the Stat Calculator**
+As well as dragging a section into the left or right column, you can drop one into the strip
+across the top to make it span the whole page. Useful for the wider sections like the formula
+breakdown.
+
+**Changed: Damage Estimator now uses the game's own damage formula**
+It was using a formula from a community server emulator that turned out to work quite differently
+from the real game - it subtracted the target's defence where the game divides by it, and ignored
+your Sense and the target's Dodge entirely. Damage figures will be noticeably higher than before,
+and Sense now affects them. It remains an estimate and is still marked work in progress.
+
+**Fixed: Triple Shot counted as a single hit**
+Both the bow and gun versions were treated as ordinary weapon attacks rather than 3-hit skills.
+
 ## 3.2.44
 
 **Fixed: Cleric hotkeys stayed active when the tab was hidden**
