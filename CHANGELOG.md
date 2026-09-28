@@ -8,6 +8,17 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.47
+
+**Fixed: Glaive attack was too high, and both glaives counted the same**
+Glaive ATK was adding each equipped weapon's Attack Power twice - once inside the glaive
+formula and once again as a general gear bonus - so the number shown was well above what the
+game gives you. The two hands were also being treated as interchangeable and simply added
+together. They aren't: the main hand does most of the work, an off-hand glaive on its own
+leaves you unarmed, and when you carry two the off hand contributes on its own separate
+scale. All of this is now measured from in-game readings and matches them exactly, including
+dual-wielding.
+
 ## 3.2.46
 
 **Fixed: The full-width drop strip vanished once you used it**
