@@ -8,6 +8,15 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.48
+
+**Fixed: Attack was wrong when carrying two glaives**
+Last version worked out the off-hand glaive's contribution from your Dexterity alone. New
+in-game readings from a high-Strength, low-Dexterity character show that isn't right - the
+off hand scales with both stats together. Attack with two glaives was too low on
+Strength-heavy builds and too high on Dexterity-heavy ones, by a wide margin at the extremes.
+It now matches every reading taken so far. Carrying a single glaive was never affected.
+
 ## 3.2.47
 
 **Fixed: Glaive attack was too high, and both glaives counted the same**
