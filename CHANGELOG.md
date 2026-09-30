@@ -8,6 +8,14 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.49
+
+**Fixed: The account editor was cut off in a small window**
+Editing an account in a small window, or at a lower screen resolution, clipped the bottom of
+the form - including the Save and Cancel buttons - with no scrollbar to reach it. The form now
+scrolls when it doesn't fit, and looks exactly as before when it does. The login form had the
+same problem and is fixed too.
+
 ## 3.2.48
 
 **Fixed: Attack was wrong when carrying two glaives**
