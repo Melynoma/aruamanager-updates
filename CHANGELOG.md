@@ -8,6 +8,19 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.50
+
+**New: Cleric targeting works with small party icons**
+If the game's party panel is set to small icons, the party members sit so close together that
+a targeted cast could select the wrong person, or nobody at all. Tick the new **Using small
+icons** box under Scan Party, then scan again. Clicks now land right on each character's name,
+so the right member gets selected.
+
+**New: Minimise All Clients**
+The Parties tab has a new **Minimise All Clients** button next to Close All Clients. It sends
+every game window to the taskbar in one click. The button then changes to **Restore All
+Clients**, which brings them all back.
+
 ## 3.2.49
 
 **Fixed: The account editor was cut off in a small window**
