@@ -8,6 +8,17 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.53
+
+**New: Gear scan overlay for the Stat Calculator**
+Scanning a whole set of gear no longer means opening Define Gear for every item. Click the new
+**📋 Gear Overlay** button next to Define Gear to open a small window that stays on top of the
+game. Pick a slot, click **Scan Item** and hover that item in game until the countdown ends. The
+item's stats fill that slot straight away, including any socketed gem, and a ✓ marks each slot
+you've filled. The overlay also has its own scan delay and **Set Scan Area** button, so you can
+set everything up without leaving the game. Clicking the overlay doesn't take focus from the
+game, so the item's tooltip stays open for the scan.
+
 ## 3.2.52
 
 **New: Move logins between Classic and Arua**
