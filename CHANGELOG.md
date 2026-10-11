@@ -8,6 +8,23 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.52
+
+**New: Move logins between Classic and Arua**
+Picked the wrong server when importing your accounts during setup? The Options tab now has a
+**Move Logins** row with two buttons: **Classic logins to Arua** and **Arua logins to Classic**.
+Your accounts move across with their passwords and characters, so nothing needs entering again.
+You're asked to confirm first, and any account already in the other list is left alone.
+
+**Fixed: A removed party member couldn't be added back**
+In the party editor, removing a member took their account out of the Add list for good, so you
+had to close the editor to add them again. Removing a member now puts their account back in the
+list. Removing one member also no longer clears the character choices from everyone else.
+
+**Fixed: Login buttons out of line on the Parties tab**
+When one party had a longer list of members, the Login, Edit and favourite columns for the
+parties below it shifted to the right. Every row now lines up under the column headers.
+
 ## 3.2.51
 
 **Fixed: Targeted buffs went to the wrong party member**
