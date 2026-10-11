@@ -8,6 +8,28 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.51
+
+**Fixed: Targeted buffs went to the wrong party member**
+Party member clicks were landing slightly below where they should. With normal party icons
+this usually still hit the right person, but with small icons it picked the member underneath
+instead - skipping the first member and buffing the wrong people. Clicks now land exactly on
+the member's name. This also fixes the same problem for Heal Leader, Follow and Purify.
+
+**Improved: Small party icons at any interface scale**
+With **Using small icons** ticked, Scan Party now reads the party panel properly at smaller
+in-game interface scales (such as 1.0x), where names are drawn very small. Run Scan Party again
+after changing your interface scale.
+
+**Fixed: Rebuff and Bonfire switching to the cleric's window**
+Clicking a button on the Cleric or Custom overlay could pull the cleric's window to the front
+mid-cast, taking you out of the client you were playing. The overlays no longer take focus when
+clicked, so you stay in your own window, just like using a hotkey.
+
+**Improved: Tighter spacing on the Accounts tab**
+Accounts whose characters fit on one line are back to compact rows. Only accounts with enough
+characters to wrap onto extra lines get the taller row.
+
 ## 3.2.50
 
 **New: Cleric targeting works with small party icons**
