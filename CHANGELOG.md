@@ -8,6 +8,19 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.55
+
+**Fixed: Auto-recast cast targeted buffs after a party-only cast**
+If you cast just your party buffs with auto-recast set to "All", the recast 15 minutes later
+cast your targeted buffs as well. Auto-recast now only repeats what you actually cast: party
+buffs alone come back as party buffs alone. Cast All+Targeted, or casting targeted buffs during
+the countdown, still brings both back.
+
+**New: Custom timers on the overlay**
+Custom timers you add on the Timers tab now show on the Timers overlay and in the Custom
+overlay's Timers section, in time order alongside the game events. Untick the new **Show custom
+timers on the overlay** box under Add timer if you'd rather keep them on the tab only.
+
 ## 3.2.54
 
 **New: Molten Shell**
