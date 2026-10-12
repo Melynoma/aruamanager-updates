@@ -8,6 +8,18 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.54
+
+**New: Molten Shell**
+Molten Shell (Quality 39) is now in the Launcher ammo list on the Stat Calculator.
+
+**Fixed: Critical Damage on blue Karkia weapons was ignored**
+Blue Karkia weapons carry a "Critical Damage 5%" bonus, which scanning used to skip. It's now
+read when you scan the weapon, or you can type it into Define Gear as "Critical Damage+5%". It
+raises the damage of your crits in the Damage Estimator and Critical Hit Estimate. It doesn't
+change how often you crit. The exact size of the boost is still being checked against in-game
+numbers.
+
 ## 3.2.53
 
 **New: Gear scan overlay for the Stat Calculator**
