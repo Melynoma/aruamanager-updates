@@ -8,6 +8,19 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.56
+
+**Fixed: AruaManager crashed when a login failed**
+If logging in a single account went wrong - no ROSE folder set, TRose.exe missing, or the
+Administrator prompt cancelled - AruaManager could crash with an error about the "calling
+thread" instead of telling you what happened. It now shows the actual problem in a normal
+message.
+
+**Improved: Saved Stat Calculator builds survive updates**
+Saved builds are now kept with your accounts, so they're still there if you install an update
+into a new folder. Builds you've already saved are picked up automatically, and moved across the
+next time you save or delete one.
+
 ## 3.2.55
 
 **Fixed: Auto-recast cast targeted buffs after a party-only cast**
