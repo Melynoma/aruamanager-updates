@@ -8,6 +8,15 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.61
+
+**Fixed: Games launched from the Accounts tab couldn't be resized in game**
+Logging in from the Accounts tab always started the game at the resolution set in Options, and
+changing the resolution in the game's own settings then had no effect. Each install location in
+Options now has a **Game sets size** tickbox next to Fullscreen. Tick it and logins from the
+Accounts tab let the game use its own resolution setting, so you can change it in game as normal.
+Parties still launch each member at its saved size.
+
 ## 3.2.60
 
 **Ready for custom keybinds in game**
