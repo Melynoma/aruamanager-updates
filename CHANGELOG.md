@@ -8,6 +8,26 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.60
+
+**Ready for custom keybinds in game**
+A future game update will let you put skills on any key you like, not just F1–F12. AruaManager
+is ready for it now: every key you set on the Cleric tab - party buffs, targeted buffs, follow,
+purify and the rest - can be any keyboard key, with any mix of Ctrl, Shift and Alt (for example
+Q, Ctrl+Shift+3 or Num5). Click a key button and use the new **Press any key…** option, then
+press the combination. The F-key grid is still there for quick picks, and all your existing keys
+carry on working exactly as before.
+
+**New: Warnings when a hotkey is already in use**
+Setting a hotkey on the Cleric or Loot Tracker tab now tells you if that key is already taken.
+If another part of AruaManager uses it, you're told exactly where. If another program on your PC
+has it (Discord, Steam, overlays and so on), you're warned and can choose whether to keep it.
+
+**New: Save, export and import Cleric settings**
+The Cleric tab has **Save Settings**, **Export…** and **Import…** buttons at the bottom. Export
+saves all your Cleric settings - keys, hotkeys, delays, follow and overlay options - to a file,
+so you can keep a backup or copy your setup to another PC. Import loads them back in.
+
 ## 3.2.57
 
 **Stability improvements**
