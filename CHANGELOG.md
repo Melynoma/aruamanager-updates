@@ -8,6 +8,14 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.62
+
+**Changed: Update.bat no longer starts AruaManager for you**
+Some antivirus software wrongly flagged the update zip, reacting to the updater copying files and
+then starting a program straight away. Update.bat now just copies the new files over your install
+and tells you when it's finished - start AruaManager from your usual shortcut afterwards. Nothing
+else about updating has changed, and your settings are still left untouched.
+
 ## 3.2.61
 
 **Fixed: Games launched from the Accounts tab couldn't be resized in game**
