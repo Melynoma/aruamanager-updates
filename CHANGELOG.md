@@ -8,7 +8,25 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
-## 3.4.1
+## 3.4.2
+
+**Fixed: Import XML buttons missing**
+On the Accounts tab, Import XML could open a window with the Classic and Arua buttons cut off,
+so you couldn't choose where to import. The window now sizes itself so both buttons always show.
+
+**Fixed: Party position picker on a second monitor**
+Setting a party member's X/Y on a second monitor with a different display scale could draw the
+monitor outlines in the wrong place and put the red drag box off-screen, so there was nothing to
+drag. The outlines and box now line up with your real monitors, and if a saved position isn't on
+any connected monitor the box starts in the middle of your main screen.
+
+**Removed: Parties monitor dropdown**
+The Monitor dropdown on each party member didn't actually do anything - the game ignores it, so
+a member set to Secondary still opened on your main monitor. It's gone to avoid confusion. Where
+a window opens is set by its X/Y position (use Set to drag it onto any monitor), and your saved
+parties are unaffected.
+
+**Also in this update: everything from 3.4.1, in case you missed it**
 
 **New: Use your own cleric or other tools alongside AruaManager**
 AruaManager has never locked the game, but there was one catch: while AruaManager runs as
@@ -35,6 +53,10 @@ The guides no longer walk you through features your licence doesn't include.
 **Fixed: Info tab corrections**
 The licence section now correctly explains that licensed features unlock once the online licence
 check completes at startup, and the saved-builds location for the Stat Calculator is now correct.
+
+## 3.4.1
+
+All of 3.4.1's changes are listed under 3.4.2 above.
 
 ## 3.2.63
 
