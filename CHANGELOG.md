@@ -8,6 +8,24 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.2.63
+
+**New: How to use guides on every tab**
+Every tab now has a **❓ How to use** button. It opens a short step-by-step guide that sits beside
+the app and outlines the part of the tab each step is talking about, so you can follow along and
+set things up as you go. Use Back and Next to move through it, and close it any time. The Options
+guide explains the less obvious settings - what the extra install locations are for, why Run as
+Administrator matters, moving logins between servers, slow client positioning, how whisper alerts
+work and hiding tabs you don't use.
+
+**Changed: Tidier buttons**
+The Overlay button now looks the same on every tab. On the Loot Tracker, Show ItemID, Start
+Tracking, End Tracking and the hotkey button are all the same size, and the Parties tab's Minimise
+All Clients and Close All Clients buttons have a bit more room around their wording.
+
+**Changed: Custom tab layout**
+The Custom tab is laid out like the Levelling Helper, with each section in its own panel.
+
 ## 3.2.62
 
 **Changed: Update.bat no longer starts AruaManager for you**
