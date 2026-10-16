@@ -8,6 +8,34 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.1
+
+**New: Use your own cleric or other tools alongside AruaManager**
+AruaManager has never locked the game, but there was one catch: while AruaManager runs as
+Administrator (which the Cleric Helper and Loot Tracker need), every game it launched ran as
+Administrator too - and Windows then stops other programs from sending those games keys or clicks.
+Options › Admin Options now has **Launch Games without Admin rights**. Tick it and games start
+with your normal rights, so other cleric or third-party tools can still control them, while
+AruaManager's own tools keep working. It's off by default, so nothing changes unless you tick it.
+
+**New: A clear message if files are missing**
+Opening AruaManager straight from inside the zip, or with only some of its files extracted, used
+to end in a confusing error naming a missing file. It now tells you exactly what's wrong - extract
+the whole zip first - and lists anything missing.
+
+**Changed: Every button now looks the same**
+Buttons across every tab and window now share one look - the same corners, borders, text size and
+weight - instead of each tab having its own slightly different style. Colours still mean the same
+thing: green to start, red to close or delete, your theme's accent for main actions. The Cleric
+tab's top row of buttons is now an even height too.
+
+**Changed: How to use guides only show what you have**
+The guides no longer walk you through features your licence doesn't include.
+
+**Fixed: Info tab corrections**
+The licence section now correctly explains that licensed features unlock once the online licence
+check completes at startup, and the saved-builds location for the Stat Calculator is now correct.
+
 ## 3.2.63
 
 **New: How to use guides on every tab**
