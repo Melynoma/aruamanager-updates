@@ -8,6 +8,13 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.3
+
+**Changed: Easier-to-spot install folder buttons**
+The buttons for choosing your game folder on the Options tab were hard to see in dark mode. They
+now use your theme's accent colour with a "…" next to the icon, and say what they do when you
+hover over them.
+
 ## 3.4.2
 
 **Fixed: Import XML buttons missing**
