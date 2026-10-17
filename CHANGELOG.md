@@ -8,6 +8,17 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.4
+
+**Fixed: How to use guides opening on the wrong monitor**
+If AruaManager was on a second monitor, the How to use guide always opened on your main monitor
+instead. It now opens in the corner of the AruaManager window, on whichever monitor it's on.
+
+**Changed: Stat Calculator guide covers Compare and layout**
+The Stat Calculator's How to use guide now explains Compare - putting 2 to 5 saved builds side by
+side, with the first as the baseline and the rest showing what's higher or lower - and how to drag
+sections around to arrange the page the way you like.
+
 ## 3.4.3
 
 **Changed: Easier-to-spot install folder buttons**
