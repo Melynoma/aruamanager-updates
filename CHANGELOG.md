@@ -8,6 +8,28 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.5
+
+**New: Saved parties on the Cleric tab**
+Set up your cleric, party members, follow target and portrait positions once, then save the whole
+thing under a name - it's named after your cleric unless you change it. Saved Parties sits near the
+top of the Cleric tab: pick a party and click Load to put everything back, including all your
+Cleric settings. Members are matched by character name, and anyone who isn't logged in yet is
+listed so you can start them and load again.
+
+**New: Turn Cleric hotkeys on and off from the overlay**
+The Cleric overlay can now show a Keybinds Enabled / Disabled button - one click turns every Cleric
+hotkey off (so the keys work normally in other programs) or back on. Show or hide it with the new
+Keybinds on/off tick under Overlay shows.
+
+**New: Disable the Loot Tracker hotkey**
+The Loot Tracker's Start/Pause hotkey has a Disable tick, so you can switch it off for a while
+without losing the key you set.
+
+**Changed: How to use guides updated**
+The Cleric and Loot Tracker guides now cover saved parties, the overlay keybinds button and the
+new Disable option.
+
 ## 3.4.4
 
 **Fixed: How to use guides opening on the wrong monitor**
