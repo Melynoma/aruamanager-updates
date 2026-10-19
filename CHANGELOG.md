@@ -8,6 +8,11 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.9
+
+**Stability improvements**
+General fixes to keep things running smoothly. No changes to how anything works.
+
 ## 3.4.8
 
 **Stability improvements**
