@@ -8,6 +8,25 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.10
+
+**New: Resurrect Leader**
+Cleric Helper has a new Resurrection skill - set its key under Purify on the Cleric tab. The new
+Resurrect Leader button on the overlay selects the leader's portrait, casts Resurrection on them,
+then has your cleric carry on following. Show or hide it with the Resurrect Leader tick under
+Overlay shows.
+
+**New: Skill cooldown countdowns on the Cleric overlay**
+After you use Heal Leader, Party Heal, Bonfire, Purify or Resurrect Leader, the button counts down
+until that skill is ready again. Enter your cleric's Charm in the new Cleric Charm box at the top
+of the keys list and the cooldowns are worked out for you (every 10 Charm takes 1% off). Each
+cooldown is shown beside its key, and you can type over any of them if yours differs. The countdown
+is a reminder - you can still recast early.
+
+**Changed: Tidier keys list**
+The Cleric tab's keys list now lines up in columns - key, skill, effect, Party / Targeted, then
+cooldown - so it's easier to read at a glance.
+
 ## 3.4.9
 
 **Stability improvements**
