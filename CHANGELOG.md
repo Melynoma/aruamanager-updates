@@ -8,6 +8,28 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.6
+
+**New: Repeat options for your own timers**
+When you add a timer on the Timers tab you can now choose whether it repeats. Tick Repeat and set
+how long until each repeat (it starts the same as the first run, but can be different), then pick
+forever or a set number of times. Untick Repeat for a one-off timer that disappears once it's up.
+The list shows "once", "every 30m" or "every 30m · 2 more" so you can see what each will do.
+
+**New: How to use guides that show you, not just tell you**
+- Guides that talk about an overlay now open it and point at its buttons, including the 👻 ghost
+  button that makes the overlay click-through - ideal for leaving the Loot Tracker or Timers
+  overlay over your game while you play.
+- Accounts and Parties have a "Show me" demo that opens a new account or party form filled in with
+  example details and walks through each part. Nothing is saved unless you click Save.
+- The Stat Calculator can fill in an example level 200 Knight so you can watch every number update
+  as you go through its guide.
+- The Cleric guide now opens the overlay and walks through its buttons.
+
+**Fixed: Greyed-out overlay buttons had no text**
+On some themes, overlay buttons that were greyed out (like Pause and Stop when nothing is running)
+showed as empty boxes. Their text now shows in grey until they can be used.
+
 ## 3.4.5
 
 **New: Saved parties on the Cleric tab**
