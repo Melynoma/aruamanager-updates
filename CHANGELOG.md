@@ -8,6 +8,14 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.11
+
+**Fixed: Custom timers vanished when the app was closed**
+Timers you add on the Timers tab are now saved. Close the app and they carry on counting down,
+and they stay until you remove them, or until a one-off (or the last repeat) runs out. If one
+ran out while the app was closed, you get its alert when you open the app again, and a repeating
+timer carries on from its next repeat.
+
 ## 3.4.10
 
 **New: Resurrect Leader**
