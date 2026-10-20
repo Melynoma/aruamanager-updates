@@ -8,7 +8,7 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
-## 3.4.12
+## 3.4.13
 
 **Improved: Your settings now survive installing an update anywhere**
 All your settings - Cleric keys and options, Timers, Loot Tracker, Options, the Stat Calculator
