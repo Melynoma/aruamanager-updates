@@ -8,6 +8,27 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.12
+
+**Improved: Your settings now survive installing an update anywhere**
+All your settings - Cleric keys and options, Timers, Loot Tracker, Options, the Stat Calculator
+layout, past loot sessions and more - are now kept in your Windows user folder alongside your
+accounts, instead of next to the app. If you unzip an update into a new folder, everything is
+still there. The first time you open this version, your current settings are brought across
+automatically - nothing to do.
+
+**Improved: Backups include your saved parties and loot sessions**
+Backup now saves everything, including saved parties. Restoring an older backup still works and
+puts your settings where this version reads them.
+
+**Fixed: Loading a saved Cleric party could list the same character twice**
+After Load, a character could show up twice in the Cleric list. Each running game now appears
+once.
+
+**Fixed: Removing a custom timer removed every timer with the same name**
+Two timers can no longer share a name - give each one its own. If you already had two with the
+same name, the second now shows as "Name (2)" so you can remove them separately.
+
 ## 3.4.11
 
 **Fixed: Custom timers vanished when the app was closed**
