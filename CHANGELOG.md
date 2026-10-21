@@ -8,6 +8,27 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.14
+
+**New: Recommended stats for Knight and Bourgeois**
+The Levelling Helper and the Stat Calculator's "Fill with recommended" now have full builds for
+Knight and Bourgeois, all the way to level 228. Bourgeois keeps STR at exactly what your launcher
+needs and puts everything else into CON and SEN for the most damage. Knight follows the classic
+STR and CON build, adding SEN, then DEX and INT later on.
+
+**New: "Are you sure you want to quit?"**
+Closing AruaManager now asks first, so a stray click on the X doesn't close it. If you'd rather
+it closed straight away, untick Ask before closing AruaManager in Options.
+
+**Improved: Levelling Helper at the top end**
+- Levels 210-228 now point you to Geb Desert's Amun Fighters and Amun Warriors for XP.
+- Level ranges no longer go past 228. Some zones have monsters above the level cap, which used to
+  show ranges like "Lv 225-240".
+
+**Improved: Classes in the Stat Calculator are grouped by job**
+Each first job is followed by its two second jobs: Hawker, Raider, Scout, Muse, Cleric, Mage,
+Soldier, Knight, Champion, Dealer, Bourgeois, Artisan.
+
 ## 3.4.13
 
 **Improved: Your settings now survive installing an update anywhere**
