@@ -8,6 +8,19 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.15
+
+**Fixed: The cleric followed a buffed character after casting**
+Cast All (from the button, its hotkey or auto-rebuff) pressed your follow key at the end even
+with "Send follow after party buffs" unticked, so the cleric walked off after the last character
+it buffed. The same could happen after restarting a game if that character had been the follow
+target. Now the cleric only follows when Send follow is ticked or a character has Follow ticked.
+
+**Changed: Characters who log on start unticked**
+A game you start while AruaManager is open now joins the Cleric list unticked, and is never
+picked as your cleric by itself, so nothing gets buffed until you tick it. Your last-used cleric
+is still picked when it logs on, and Load Party still ticks everyone in the party.
+
 ## 3.4.14
 
 **New: Recommended stats for Knight and Bourgeois**
