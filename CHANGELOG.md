@@ -8,6 +8,34 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.16
+
+**New: Warning when someone leaves the party**
+If a party member logs off, everyone listed below them in the party window moves up a slot, so
+their saved portraits now point at the wrong person. The Cleric tab now pops up an alert (like a
+whisper alert) naming who to re-scan, and marks their rows "re-scan". If the last person in the
+list leaves, nothing has moved and you won't be bothered.
+
+**New: Resize and rearrange the Custom overlay**
+- Tick Allow resizing the overlay on the Custom tab to drag the overlay to any size. Your size is
+  remembered, and Reset size puts it back to normal.
+- Choose Vertical (sections stacked) or Horizontal (sections side by side). Each remembers its own
+  size.
+
+**Fixed: Cleric stuck on "casting" and doing nothing**
+If a Cast All or an auto-recast was interrupted (by loading a party or pausing, for example), the
+Cleric tab could stay stuck thinking it was still casting: Cast All refused to start and nothing
+was recast. Auto-recast could also get stuck at 00:00 and never fire. Both are fixed.
+
+**Improved: Auto-Heal**
+- Auto-Heal now waits while buffs are being cast or recast, so it can't get in the way, then
+  carries on.
+- With Auto-Heal on, your screen no longer jumps to the game every few seconds while you're
+  using AruaManager.
+
+**Improved: How to use guides**
+Updated across the app for the latest changes, including a new Auto-Heal step on the Cleric tab.
+
 ## 3.4.15
 
 **Fixed: The cleric followed a buffed character after casting**
