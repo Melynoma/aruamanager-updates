@@ -8,6 +8,12 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.18
+
+**Fixed: Daylight saving tickboxes could be hidden on the Timers tab**
+They now sit on their own line just under the Server and Local clocks, so they can't be cut off
+on a narrower window.
+
 ## 3.4.17
 
 **New: Daylight saving correction on the Timers tab**
