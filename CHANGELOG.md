@@ -8,6 +8,21 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.17
+
+**New: Daylight saving correction on the Timers tab**
+If every event time is an hour out, because the server and your region change their clocks for
+daylight saving differently, tick Daylight saving +1 hour or -1 hour beside the clocks. The
+Server clock shows the corrected time, so tick whichever makes it match the game. Countdowns,
+alerts and the overlay all follow it.
+
+**Fixed: Editing an account could show characters from another account**
+After editing one account, opening Edit on an account with fewer characters showed the earlier
+account's extra characters in the empty slots, and saving would keep them. If you saved an
+account while it showed someone else's characters, open Edit and remove them.
+
+**Fixed: The Cleric overlay could keep saying Casting after a Cast All had finished**
+
 ## 3.4.16
 
 **New: Warning when someone leaves the party**
