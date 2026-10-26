@@ -8,6 +8,25 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.20
+
+**Fixed: Targeted buffs could be skipped on every other character**
+When the same buff went on one character after another, the next one could be pressed before
+the last had come off cooldown, so it was lost in game. This hit the Dash Support button, clerics
+that only get Dash Support, and Parallel casting. Now:
+- Dash Support and the Power, Damage, Battle, Hit and Critical Supports have cooldowns, worked
+  out from your Cleric Charm like Cure and the others. Each shows its own Cooldown box - type
+  over it if yours differs.
+- A buff waits until it is off cooldown before going on the next character.
+- Your Cast delay is now respected when moving from one character to the next, too.
+
+**New: Choose whether Dash Support follows**
+The Dash Support button no longer presses your follow key just because Send follow after party
+buffs is ticked. It has its own tick, Send follow after Dash Support - unticked, it never follows.
+
+**Fixed: Follow and Cleric headings in the target list**
+The headings now sit directly over their tickboxes, so it's clear which is which.
+
 ## 3.4.19
 
 **New: Dash Support button on the Cleric overlay**
