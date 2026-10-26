@@ -8,6 +8,13 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.22
+
+**New: Edit your custom timers**
+Each custom timer on the Timers tab now has a pencil button next to Remove. Click it and the form
+fills with that timer's settings - change anything, then Save changes (or Cancel). A new length
+restarts the countdown from now; changing only the name, alert or repeats leaves it running.
+
 ## 3.4.21
 
 **New: A hotkey for every Cleric overlay button**
