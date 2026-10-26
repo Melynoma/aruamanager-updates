@@ -8,6 +8,18 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.23
+
+**Fixed: Cleric hotkey buttons drawn over the tab title**
+The new hotkey buttons from 3.4.21 sat on top of the Cleric tab's heading. They're now back under
+Hotkeys, in a tidy grid: "Hotkeys:" and Disable hotkeys on the first line, then every hotkey lined
+up underneath. Any keys you'd already set are kept.
+
+**New: Hide / Show for Hotkeys and Overlay shows**
+The Overlay shows tickboxes are now in a grid under their heading too. Both sections have a
+Hide button to fold them away and keep the tab tidy - Show brings them back. Hiding never changes
+your keys or tickboxes, and the app remembers which you've hidden.
+
 ## 3.4.22
 
 **New: Edit your custom timers**
