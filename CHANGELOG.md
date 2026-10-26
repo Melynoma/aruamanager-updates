@@ -8,6 +8,14 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.21
+
+**New: A hotkey for every Cleric overlay button**
+Alongside Party, Targeted and All buffs and Purify, you can now set hotkeys for Dash Support,
+Bonfire, Resurrect Leader, Heal Leader, Party Heal (and Party Heal 2 for a second cleric), Follow
+Leader, Auto-Heal on/off and Pause All - on the new row under the Cleric tab's hotkeys. They work
+like the others: click, press a key, Esc clears it, and you're warned if the key is already used.
+
 ## 3.4.20
 
 **Fixed: Targeted buffs could be skipped on every other character**
