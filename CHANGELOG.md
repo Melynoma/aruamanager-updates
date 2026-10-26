@@ -8,6 +8,19 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.19
+
+**New: Dash Support button on the Cleric overlay**
+One click casts just Dash Support on every ticked target - handy for getting the party moving
+from one spot to the next. It's on the Cleric overlay and in the Custom overlay's Cleric section,
+and you can hide it with the Dash Support tick under Overlay shows.
+
+**New: Mark more than one cleric in your party**
+The target list has a new Cleric column. Tick it for any target that's also a cleric and, like
+your casting cleric, it only gets Dash Support unless Full buff cleric? is ticked - so a party
+with several clerics isn't slowed down full-buffing them. The ticks are remembered for each
+character and saved with your party.
+
 ## 3.4.18
 
 **Fixed: Daylight saving tickboxes could be hidden on the Timers tab**
