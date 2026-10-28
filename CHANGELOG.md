@@ -8,6 +8,17 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.25
+
+**Fixed: Party window positions lost after removing a member**
+Removing a member while editing a party could make the X / Y (and other settings) you then set
+on the remaining members save onto the wrong member - so a game opened on your main monitor
+instead of the second one. Edits now always stay with the member you changed.
+
+If a party has been opening in the wrong place, edit it, check each member's X / Y (use Set to
+pick them again if needed) and save. A member you've just added always starts at 0, 0, so set
+its position before saving.
+
 ## 3.4.24
 
 **Fixed: Parties logging in the wrong account when two characters share a name**
