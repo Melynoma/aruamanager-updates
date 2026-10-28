@@ -8,6 +8,16 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.24
+
+**Fixed: Parties logging in the wrong account when two characters share a name**
+If two of your accounts each had a character with the same name, a party always launched the
+first account's one. Parties now remember which account each member belongs to.
+
+Parties made before this update are fixed the next time you edit and save them - unless the name
+is on more than one account. In that case remove that member, add it again from the right
+account, and save.
+
 ## 3.4.23
 
 **Fixed: Cleric hotkey buttons drawn over the tab title**
