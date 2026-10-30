@@ -8,6 +8,35 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.26
+
+**New: run a second Cleric party**
+The Cleric tab can now run two parties side by side, each with its own cleric. Pick **Party 1** or
+**Party 2** from the new **Cleric party** dropdown under Saved Parties to switch between them.
+Each party has its own settings (so a different Charm is fine), its own overlay and its own
+hotkeys - Party 2's keys appear as "Cleric Party 2" in the hotkey lists. Both parties can buff at
+the same time.
+
+**Saved parties now hold both Cleric parties**
+Saving a party saves Party 1 and Party 2 together, and loading puts each one back where it was.
+Parties saved before this update still load into the party you're viewing.
+
+**New: cast on one character from the overlay**
+The Cleric overlay has a **PARTY** tab on its left. Click it to slide out your party's names;
+click a name to cast all your targeted buffs on just that character.
+
+**New: cleric's name in the overlay title**
+Tick **Cleric name in overlay title** (under Overlay shows) to show your cleric's name instead of
+"CLERIC". It shows CLERIC when no cleric is picked or the cleric isn't logged in.
+
+**Tidier Cleric tab**
+The settings at the top of the Cleric tab now scroll when the window is small, so nothing gets
+cut off.
+
+**Safer party logins**
+Parties are protected against the same game being opened twice if Login is triggered again
+while a party is still launching.
+
 ## 3.4.25
 
 **Fixed: Party window positions lost after removing a member**
