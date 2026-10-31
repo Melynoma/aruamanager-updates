@@ -8,6 +8,19 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.28
+
+**Coming from 3.4.26 or earlier? Switch to the installer once**
+AruaManager now installs and updates itself. Download **AruaManager-win-Setup.exe** from the
+download page and run it once - your accounts and settings carry across. After that, every
+update is one click on **Update Now**, and your pinned shortcuts keep working. See 3.4.27 below
+for the details.
+
+**Fixed: crash when saving a new party with a name already in use**
+Saving a new party under a name another party already had closed AruaManager with an error. The
+party form now says "A party with this name already exists" and keeps everything you entered, so
+you can just pick another name.
+
 ## 3.4.27
 
 **New: AruaManager now has an installer and updates itself**
