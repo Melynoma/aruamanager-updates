@@ -8,6 +8,28 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.27
+
+**New: AruaManager now has an installer and updates itself**
+Download **AruaManager-win-Setup.exe** from the download page and run it once. It installs
+AruaManager for your Windows user (no admin needed) and adds Start menu and desktop shortcuts.
+Your accounts and settings carry across automatically.
+
+From then on, when an update comes out, choose **Update Now**: AruaManager downloads it, restarts
+and stays in the same place, so your pinned shortcuts keep working. Pin the new shortcut the
+installer makes - your old folder can be deleted once you're happy.
+
+Windows may say "Windows protected your PC" when you first run the installer. Choose
+**More info → Run anyway**.
+
+Prefer no installer? The zip still works: extract it anywhere and run AruaManager.exe, and that
+copy can update itself too.
+
+**Your edited item names, helper spots and stat builds are kept safe across updates**
+These are now saved with the rest of your settings instead of in the app's folder. If you
+changed any of them in your old copy, make a backup there (Options → Backup Now) and restore it
+in the new one.
+
 ## 3.4.26
 
 **New: run a second Cleric party**
