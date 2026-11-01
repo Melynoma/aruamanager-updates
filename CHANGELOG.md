@@ -8,6 +8,23 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.29
+
+**Coming from 3.4.26 or earlier? Switch to the installer once**
+AruaManager now installs and updates itself. Download **AruaManager-win-Setup.exe** from the
+download page and run it once - your accounts and settings carry across. After that, every
+update is one click on **Update Now**, and your pinned shortcuts keep working. See 3.4.27 below
+for the details.
+
+**Fixed: Party names on the Cleric overlay now cast everything**
+Clicking a party member's name on the Cleric overlay's side tab only cast your targeted buffs.
+It now works like Cast All: your party buffs first, then every targeted buff on just that
+character. If you haven't set up any party buffs it casts the targeted buffs, as before.
+
+**Fixed: Cast history now shows party buffs from Cast All**
+Cast All's party buffs were never written to the cast history - only the targeted buffs were, so
+it looked as if party buffs had been skipped. Both are now listed.
+
 ## 3.4.28
 
 **Coming from 3.4.26 or earlier? Switch to the installer once**
