@@ -8,6 +8,35 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.30
+
+**Coming from 3.4.26 or earlier? Switch to the installer once**
+AruaManager now installs and updates itself. Download **AruaManager-win-Setup.exe** from the
+download page and run it once - your accounts and settings carry across. After that, every
+update is one click on **Update Now**, and your pinned shortcuts keep working. See 3.4.27 below
+for the details.
+
+**New: Auto-Heal Target and Auto-Heal Party**
+Cleric Helper now has two auto-heals you can run on their own or together, each with its own
+button on the overlay (show or hide each under Overlay shows) and its own hotkey:
+- **Auto-Heal Target** casts Cure on your follow target (the leader).
+- **Auto-Heal Party** casts Healing on the whole party.
+
+How often each one casts starts at that skill's cooldown plus 10% - so at Charm 169 that's about
+every 2.19s for Cure and 4.75s for Healing - and follows your Cleric Charm automatically. Type
+your own number in **Auto-heal Target** or **Auto-heal Party** on the Cleric tab to override it,
+or clear the box to go back to automatic. With both on, heals are kept at least half a second
+apart so they never land on top of each other.
+
+**Changed: Bonfire always goes first**
+Pressing Bonfire with auto-heal on pauses the heals: Bonfire waits for a short quiet moment so
+nothing else is being sent, casts, and then healing carries on - anything that came due in the
+meantime goes straight after. Before, a busy auto-heal could stop Bonfire going off.
+
+**Changed: Shorter labels on the Cleric tab**
+"Purify cooldown" is now **Purify CD**, alongside the new Auto-heal Target and Auto-heal Party
+boxes.
+
 ## 3.4.29
 
 **Coming from 3.4.26 or earlier? Switch to the installer once**
