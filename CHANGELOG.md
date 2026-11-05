@@ -8,6 +8,29 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.31
+
+**Coming from 3.4.26 or earlier? Switch to the installer once**
+AruaManager now installs and updates itself. Download **AruaManager-win-Setup.exe** from the
+download page and run it once - your accounts and settings carry across. After that, every
+update is one click on **Update Now**, and your pinned shortcuts keep working. See 3.4.27 below
+for the details.
+
+**New: Up to five Cleric parties**
+The **Cleric party** dropdown on the Cleric tab now goes up to **Party 5**, so you can run up to
+five clerics, each with their own party, at the same time. Every party works just like Party 2:
+its own cleric, targets, settings (including Cleric Charm), hotkeys - listed as "Cleric Party 3"
+and so on - and its own overlay, which opens beside the others. A new party starts as a copy of
+Party 1's settings, without the hotkeys. **Saved parties** now save and load every party you have
+set up in one go.
+
+**Fixed: First buffs missed on auto-recast with auto-heal on**
+With Auto-Heal Target and Auto-Heal Party both running, the first one or two buffs of an
+auto-recast were often missed, because a heal had only just been sent. Every buff cast now waits
+for a short quiet moment after the last heal before it starts, and holds the heals while it does -
+so the whole set goes on. This applies to auto-recast, Cast Party Buffs, Cast Targeted, Cast All,
+Dash Support and the party names on the overlay.
+
 ## 3.4.30
 
 **Coming from 3.4.26 or earlier? Switch to the installer once**
