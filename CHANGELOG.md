@@ -8,6 +8,20 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.32
+
+**Coming from 3.4.26 or earlier? Switch to the installer once**
+AruaManager now installs and updates itself. Download **AruaManager-win-Setup.exe** from the
+download page and run it once - your accounts and settings carry across. After that, every
+update is one click on **Update Now**, and your pinned shortcuts keep working. See 3.4.27 below
+for the details.
+
+**Fixed: First party buff missed with Auto-Heal Party on**
+With Auto-Heal Party running, the first party buff (Blessing Body) could still be missed, because
+the cleric was still casting the party heal when it was sent. After a party heal, buff casts and
+Bonfire now wait a little longer (1.5 seconds) before starting. After a single-target heal the
+wait stays short.
+
 ## 3.4.31
 
 **Coming from 3.4.26 or earlier? Switch to the installer once**
