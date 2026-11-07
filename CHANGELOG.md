@@ -8,6 +8,18 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.33
+
+**Coming from 3.4.26 or earlier? Switch to the installer once**
+AruaManager now installs and updates itself. Download **AruaManager-win-Setup.exe** from the
+download page and run it once - your accounts and settings carry across. After that, every
+update is one click on **Update Now**, and your pinned shortcuts keep working. See 3.4.27 below
+for the details.
+
+**Fixed: Cleric Parties 3 to 5 crashed**
+Picking Party 3, 4 or 5 in the **Cleric party** dropdown, or pressing a button on one of their
+overlays, closed AruaManager with an error. All five parties now work.
+
 ## 3.4.32
 
 **Coming from 3.4.26 or earlier? Switch to the installer once**
