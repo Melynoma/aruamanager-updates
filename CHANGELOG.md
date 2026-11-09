@@ -8,6 +8,24 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.35
+
+**Coming from 3.4.26 or earlier? Switch to the installer once**
+AruaManager now installs and updates itself. Download **AruaManager-win-Setup.exe** from the
+download page and run it once - your accounts and settings carry across. After that, every
+update is one click on **Update Now**, and your pinned shortcuts keep working. See 3.4.27 below
+for the details.
+
+**Fixed: Party buffs disappearing from the Cleric tab**
+Clearing a party buff's key (for example after a "key already used" warning) removed that buff
+from the list for good, so it couldn't be cast or added to the custom run order again - Magical
+Aura was the one most often lost. All five party buffs now always stay listed. One without a key
+shows a red **—** and isn't cast; click it to give it a key again.
+
+**Improved: Custom run order help**
+The Cleric How to use guide and the README now cover the custom run order in more detail,
+including skills with no key.
+
 ## 3.4.34
 
 **Coming from 3.4.26 or earlier? Switch to the installer once**
