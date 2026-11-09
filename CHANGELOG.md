@@ -8,6 +8,26 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.41
+
+**Coming from 3.4.26 or earlier? Switch to the installer once**
+AruaManager now installs and updates itself. Download **AruaManager-win-Setup.exe** from the
+download page and run it once - your accounts and settings carry across. After that, every
+update is one click on **Update Now**, and your pinned shortcuts keep working. See 3.4.27 below
+for the details.
+
+**Fixed: Bonfire skipped with Auto-Heal Target on**
+Bonfire was often pressed while the cleric was still casting Cure, and the game ignored it. It
+now waits a moment longer after a Cure before going out.
+
+**Improved: Following ON also follows the leader**
+Turning **Following** back ON on the Cleric overlay now follows the leader straight away, the
+same as pressing Follow Leader.
+
+**Improved: Warnings always on top**
+Warning and confirmation messages now always appear on top of the game and the overlays, instead
+of sometimes opening hidden behind them.
+
 ## 3.4.40
 
 **Coming from 3.4.26 or earlier? Switch to the installer once**
