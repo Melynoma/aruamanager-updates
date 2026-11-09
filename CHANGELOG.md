@@ -8,6 +8,23 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.34
+
+**Coming from 3.4.26 or earlier? Switch to the installer once**
+AruaManager now installs and updates itself. Download **AruaManager-win-Setup.exe** from the
+download page and run it once - your accounts and settings carry across. After that, every
+update is one click on **Update Now**, and your pinned shortcuts keep working. See 3.4.27 below
+for the details.
+
+**New: Custom run order for Cast All**
+Cast All has always cast every party buff first, then every targeted buff. Tick **Custom run
+order for Cast All** (under Follow key on the Cleric tab) to pick your own order - for example
+Evasion Aura, Healing, Blessing Body, Power Support. Every party and targeted buff is listed with
+a tick and up / down arrows; untick a skill to leave it out. A targeted buff goes on each target
+in turn before the next skill. The order is used by the Cast All button, its hotkey, the overlay
+and auto-recast of everything, and each Cleric party has its own. Leave it unticked and Cast All
+works exactly as before.
+
 ## 3.4.33
 
 **Coming from 3.4.26 or earlier? Switch to the installer once**
