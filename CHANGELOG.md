@@ -8,6 +8,42 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.36
+
+**Coming from 3.4.26 or earlier? Switch to the installer once**
+AruaManager now installs and updates itself. Download **AruaManager-win-Setup.exe** from the
+download page and run it once - your accounts and settings carry across. After that, every
+update is one click on **Update Now**, and your pinned shortcuts keep working. See 3.4.27 below
+for the details.
+
+**New: Following ON / OFF on the Cleric overlay**
+A new button under Follow Leader. Turn it **OFF** and the cleric stops following after casts,
+heals, Bonfire, Purify and Dash Support, so a misclick can't walk it out of position. Press
+**Follow Leader** (or the button again) to follow again. It starts ON each time you open
+AruaManager.
+
+**New: Auto Bonfire**
+An **Auto Bonfire ON / OFF** button on the overlay, next to the Auto-Heal buttons. Turn it on
+and Bonfire is cast straight away, then again each time its cooldown is over, plus 1 second. It
+waits while buffs are being cast. Show or hide it under Overlay on the Cleric tab.
+
+**New: Arrange the overlay's buttons**
+**Arrange buttons** (under Overlay on the Cleric tab) lets you put the overlay's buttons in any
+order - Cast All at the top, the auto-heals at the bottom, or any mix. **Reset order** puts them
+back. Each party has its own order.
+
+**New: Overlay size**
+Pick **Small**, **Medium** (the original size) or **Large** for each party's overlay.
+
+**Improved: Cleric tab layout**
+The whole tab now scrolls as one page, so the buff list is no longer squeezed into a few lines on
+a small screen. Settings are grouped under **Overlay** and **Buffs & Keys** headings, each with
+its own Hide / Show button.
+
+**Fixed: Unassigned buffs disappearing**
+Any party buff whose key you clear now stays listed with a red **—**, ready to be given a key
+again - not just the five standard ones.
+
 ## 3.4.35
 
 **Coming from 3.4.26 or earlier? Switch to the installer once**
