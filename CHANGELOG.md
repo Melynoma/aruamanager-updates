@@ -8,6 +8,24 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.39
+
+**Coming from 3.4.26 or earlier? Switch to the installer once**
+AruaManager now installs and updates itself. Download **AruaManager-win-Setup.exe** from the
+download page and run it once - your accounts and settings carry across. After that, every
+update is one click on **Update Now**, and your pinned shortcuts keep working. See 3.4.27 below
+for the details.
+
+**Fixed: Crash with Bonfire while Following is OFF**
+Casting Bonfire - by hand or with Auto Bonfire - while the overlay's Following was turned OFF
+closed AruaManager with an error. It now just casts Bonfire and stays put.
+
+**Fixed: Auto-Heal Party skipping heals with Auto Bonfire**
+With Auto-Heal Target, Auto-Heal Party and Auto Bonfire all on, the party heal (Healing) was
+often dropped. After each Bonfire both heals went out too close together, and the game ignored
+the second. Now the party heal goes first, the next heal waits until the previous one has
+finished, and each heal's timer counts from when it was actually cast.
+
 ## 3.4.36
 
 **Coming from 3.4.26 or earlier? Switch to the installer once**
