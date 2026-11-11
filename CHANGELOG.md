@@ -8,6 +8,26 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.42
+
+**Coming from 3.4.26 or earlier? Switch to the installer once**
+AruaManager now installs and updates itself. Download **AruaManager-win-Setup.exe** from the
+download page and run it once - your accounts and settings carry across. After that, every
+update is one click on **Update Now**, and your pinned shortcuts keep working. See 3.4.27 below
+for the details.
+
+**Fixed: party windows stacking in the middle of the screen**
+On some PCs the game moved its window back to the centre after AruaManager had placed it, so a
+whole party ended up stacked on top of each other. AruaManager now keeps putting each window
+back in its set position for a little longer after launch - up to 10 seconds, or a minute with
+**Slow client launch positioning** ticked in Options. If you drag a window yourself straight
+after launching, it may snap back once before letting go.
+
+**Improved: launch log shows where windows were placed**
+If party positioning ever goes wrong, the launch log (PartyLaunch.log in your AruaManager
+settings folder) now records where each window was found, where it was moved to, and why a move
+failed - send it with your report.
+
 ## 3.4.41
 
 **Coming from 3.4.26 or earlier? Switch to the installer once**
