@@ -8,6 +8,24 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.44
+
+**Coming from 3.4.26 or earlier? Switch to the installer once**
+AruaManager now installs and updates itself. Download **AruaManager-win-Setup.exe** from the
+download page and run it once - your accounts and settings carry across. After that, every
+update is one click on **Update Now**, and your pinned shortcuts keep working. See 3.4.27 below
+for the details.
+
+**New: reset a custom timer**
+Each of your own timers on the Timers tab now has a **↻** button that starts it again from its
+full length. Handy for a boss that respawns 2 hours after it's killed: press ↻ when it dies and
+the timer goes back to exactly 2:00:00 from that moment. A repeating timer resets to its repeat
+length, and keeps its name, alert and repeats.
+
+**Improved: Neon theme highlight is now pink**
+The Neon theme's highlight colour was a bright yellow that made white text on it hard to read.
+It's now a deep neon pink.
+
 ## 3.4.43
 
 **Coming from 3.4.26 or earlier? Switch to the installer once**
