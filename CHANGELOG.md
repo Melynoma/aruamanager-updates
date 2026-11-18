@@ -8,6 +8,31 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.45
+
+**Coming from 3.4.26 or earlier? Switch to the installer once**
+AruaManager now installs and updates itself. Download **AruaManager-win-Setup.exe** from the
+download page and run it once - your accounts and settings carry across. After that, every
+update is one click on **Update Now**, and your pinned shortcuts keep working. See 3.4.27 below
+for the details.
+
+**Fixed: Custom overlay's Cleric section was missing buttons**
+The Cleric part of the Custom overlay had fallen behind the Cleric tab's own overlay - no
+Following ON/OFF, Auto-Heal Party, Auto Bonfire or Resurrect Leader, no button order, and no
+cooldown times on the buttons. It's now exactly the same as the Cleric overlay, follows the same
+**Overlay shows** ticks and **Arrange buttons** order, and the two always show the same state.
+It also has a **Cast all on** list that folds out under the buttons.
+
+**New: Cleric Parties 1-5 on the Custom overlay**
+Tick **Party 1** to **Party 5** under **Cleric parties** on the Custom tab to give each its own
+section on the Custom overlay, with its own status light. A party can be ticked once it's been set
+up on the Cleric tab.
+
+**New: arrange the Custom overlay before showing it**
+The Custom tab's new **Overlay Layout** card shows a small preview of the overlay. Drag the
+sections into the order you want - it works the same way for Vertical and Horizontal layouts, and
+applies straight away even with the overlay open. **Reset order** puts the standard order back.
+
 ## 3.4.44
 
 **Coming from 3.4.26 or earlier? Switch to the installer once**
