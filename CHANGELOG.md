@@ -8,6 +8,29 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.50
+
+**Coming from 3.4.26 or earlier? Switch to the installer once**
+AruaManager now installs and updates itself. Download **AruaManager-win-Setup.exe** from the
+download page and run it once - your accounts and settings carry across. After that, every
+update is one click on **Update Now**, and your pinned shortcuts keep working. See 3.4.27 below
+for the details.
+
+**New: Cleric helper setup wizard**
+**🧭 Setup wizard** (next to Classic / Arua on the Cleric tab) walks you through setting up a
+Cleric party step by step: your cleric, who to buff and finding their portraits, your Charm and
+buff keys, cast and heal timing, following (including where to get the Follow skill), cast order,
+hotkeys and the overlay - saying what each setting does. It opens by itself the first time you
+visit the Cleric tab with nothing set up yet.
+
+**Improved: Cast History has a Target column**
+Each line now shows who was buffed and which buffs they got, in their own columns - party buffs
+show as "Whole party". The export includes it too.
+
+**Fixed: Dash Support missing a second cleric**
+The Dash Support button now waits your full Cast delay between characters (and a little longer
+for Dash's cooldown), so every ticked character gets it.
+
 ## 3.4.49
 
 **Coming from 3.4.26 or earlier? Switch to the installer once**
