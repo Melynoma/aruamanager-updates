@@ -8,6 +8,35 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.47
+
+**Coming from 3.4.26 or earlier? Switch to the installer once**
+AruaManager now installs and updates itself. Download **AruaManager-win-Setup.exe** from the
+download page and run it once - your accounts and settings carry across. After that, every
+update is one click on **Update Now**, and your pinned shortcuts keep working. See 3.4.27 below
+for the details.
+
+**Fixed: Cast History showed buffs that weren't cast**
+A cleric target that isn't full-buffed only gets Dash Support, but the history listed every buff
+for it. The history now shows exactly what was cast and on whom: one line for the party buffs,
+then one line per target with only the buffs that target got. Each line says what started it
+(Cast All, Cast Targeted, Auto-recast...), and anything that may not have landed or was stopped
+part-way is marked.
+
+**New: export the Cast History**
+**Export…** in the Cast History window saves it to a text file - handy when something didn't cast
+and you want to look into it or send it to us.
+
+**New: your own order for Cast Targeted, and "Do not cast"**
+Tick **Custom order for Cast Targeted** on the Cleric tab to put the targeted buffs in your own
+order. It's used by Cast Targeted, the targeted part of Cast All, and auto-recast. Both custom
+order lists now have a **Cast / Do not cast** button on each skill, so you can leave skills out.
+
+**New: skip Healing**
+The **💊 Healing: cast / skip** button next to Cast All leaves Healing out of Cast All and Cast
+Targeted (and their auto-recasts) - for targets that don't want it. Auto-Heal, Party Heal and Heal
+Leader still work as normal.
+
 ## 3.4.46
 
 **Coming from 3.4.26 or earlier? Switch to the installer once**
