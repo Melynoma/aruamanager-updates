@@ -8,6 +8,19 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.51
+
+**Coming from 3.4.26 or earlier? Switch to the installer once**
+AruaManager now installs and updates itself. Download **AruaManager-win-Setup.exe** from the
+download page and run it once - your accounts and settings carry across. After that, every
+update is one click on **Update Now**, and your pinned shortcuts keep working. See 3.4.27 below
+for the details.
+
+**Fixed: first party buff skipped after a Bonfire**
+With Auto Bonfire on, a Cast All or auto-recast that started just after a Bonfire could lose its
+first buff (Blessing Body), because the game was still casting Bonfire. Buff casts now wait for
+Bonfire to finish, as they already did for heals.
+
 ## 3.4.50
 
 **Coming from 3.4.26 or earlier? Switch to the installer once**
