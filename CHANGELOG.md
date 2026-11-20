@@ -8,6 +8,20 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.52
+
+**Coming from 3.4.26 or earlier? Switch to the installer once**
+AruaManager now installs and updates itself. Download **AruaManager-win-Setup.exe** from the
+download page and run it once - your accounts and settings carry across. After that, every
+update is one click on **Update Now**, and your pinned shortcuts keep working. See 3.4.27 below
+for the details.
+
+**Fixed: first party buff still skipped with a low Heal delay**
+Lowering the Heal delay also shortened the wait before a buff cast or Bonfire after a heal, so
+the first buff could arrive while Healing or Cure was still casting and be lost. The Heal delay
+now only spaces heals from each other - buffs and Bonfire always wait at least 1.5s after
+Healing and 1.0s after Cure.
+
 ## 3.4.51
 
 **Coming from 3.4.26 or earlier? Switch to the installer once**
