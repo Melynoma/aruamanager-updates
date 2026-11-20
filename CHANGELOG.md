@@ -8,6 +8,34 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.48
+
+**Coming from 3.4.26 or earlier? Switch to the installer once**
+AruaManager now installs and updates itself. Download **AruaManager-win-Setup.exe** from the
+download page and run it once - your accounts and settings carry across. After that, every
+update is one click on **Update Now**, and your pinned shortcuts keep working. See 3.4.27 below
+for the details.
+
+**New: minimise to the system tray**
+Tick **Minimise to system tray** on the Options tab and minimising - or closing with the window's
+X - tucks AruaManager into the tray instead, so it can't be closed by mistake. Hotkeys, overlays
+and auto-heal keep working. Double-click the tray icon to open it again, or right-click it and
+choose **Exit AruaManager** to close it.
+
+**New: Heal delay**
+Next to **Cast delay** on the Cleric tab, **Heal delay** sets how long the next heal, Bonfire or
+buff waits after each auto-heal (default 1400 ms). Try it lower to heal faster - if heals or buffs
+start being missed, raise it again.
+
+**Fixed: auto-heal waited before its first heal**
+Switching Auto-Heal Target or Auto-Heal Party on now heals straight away, instead of waiting a
+whole heal interval first.
+
+**Fixed: custom run order kept switching targets**
+With **Custom run order for Cast All** ticked and **Sequential** chosen, targeted buffs next to
+each other in your list now all go on one target, then the next - instead of one buff on every
+target in turn. Parallel works as before.
+
 ## 3.4.47
 
 **Coming from 3.4.26 or earlier? Switch to the installer once**
