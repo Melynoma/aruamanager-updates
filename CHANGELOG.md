@@ -8,6 +8,19 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.54
+
+**Coming from 3.4.26 or earlier? Switch to the installer once**
+AruaManager now installs and updates itself. Download **AruaManager-win-Setup.exe** from the
+download page and run it once - your accounts and settings carry across. After that, every
+update is one click on **Update Now**, and your pinned shortcuts keep working. See 3.4.27 below
+for the details.
+
+**Cleric: Dash Support and Cast Targeted no longer steal focus**
+Pressing Dash Support or Cast Targeted (button, hotkey or overlay) used to pull the cleric
+window to the front. They now cast in the background like Bonfire and Follow Leader, so you
+can keep playing in another window while they run.
+
 ## 3.4.53
 
 **Coming from 3.4.26 or earlier? Switch to the installer once**
