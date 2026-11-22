@@ -8,6 +8,25 @@ Written for players — what changed and what it means for you, not how it was b
 
 ---
 
+## 3.4.53
+
+**Coming from 3.4.26 or earlier? Switch to the installer once**
+AruaManager now installs and updates itself. Download **AruaManager-win-Setup.exe** from the
+download page and run it once - your accounts and settings carry across. After that, every
+update is one click on **Update Now**, and your pinned shortcuts keep working. See 3.4.27 below
+for the details.
+
+**Fixed: stuck on "verifying license status"**
+The online licence check now tries again by itself if GitHub is slow to answer. If it still
+can't get through, the Options tab says why (no connection, GitHub not responding, or a problem
+GitHub itself is reporting) and a **Retry Verification** button next to Unload License checks
+again - no restart needed. A revoked licence now says so instead of showing "verifying" forever.
+
+**Cleric: party members move up when someone leaves**
+When one of your clients closes and leaves the party, everyone below them in the party window
+now moves up a slot in the Cleric tab as well - Position 2 takes Position 1's portrait, and so
+on. No more alert and no need to re-scan. If the last person in the list leaves, nothing changes.
+
 ## 3.4.52
 
 **Coming from 3.4.26 or earlier? Switch to the installer once**
